@@ -1,0 +1,144 @@
+@use 'header';
+@use 'about';
+@use 'foother';
+
+
+/* VARIABLES */
+
+$box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+$direction: column;
+
+/* END VARIABLES */
+
+/* MIXINS */
+
+@mixin flex-center(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+@mixin reset-pm {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* END MIXINS */
+
+/* GENERAL STYLES */
+*{
+    @include reset-pm();
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* END GENERAL STYLES */
+
+
+/* MAIN */
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 5px; 
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    width: 80%;
+    height: auto;
+    box-shadow: $box-shadow;
+
+    
+    a{
+    text-decoration: none;
+    
+    }    
+    
+    
+    
+} 
+
+
+  
+/* ...; */
+
+
+
+.pelicula {
+    @include flex-center();
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    
+
+    img{
+        width: 200px;
+        height: 250px;
+        border-radius: 50%;
+    
+    }
+
+    .title{
+        font-size: 13px;
+        margin: 5px 0;
+    }
+
+
+
+
+}
+
+
+
+.paginacion {
+    @include flex-center();
+    /* @extend .title; */
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+
+
+}
+
+#btnSiguiente, #btnAnterior  {
+    background-color: #f1f1f1;
+    border: $box-shadow;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: all .3s ease-out;
+    
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.397);
+        color: white;
+        cursor: pointer;
+    }
+    
+}
+
+/* END MAIN */
+
+
+/* FOOTHER */
+
+.footer {/* 
+    position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+/* END FOOTHER */

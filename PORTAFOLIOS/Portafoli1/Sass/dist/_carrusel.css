@@ -1,0 +1,17 @@
+.carrusel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.carrusel .carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+}
+.carrusel .carrusel-items .carrusel-item {
+  padding: 10px 20px;
+}

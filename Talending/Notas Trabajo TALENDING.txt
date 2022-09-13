@@ -1,0 +1,32 @@
+Grupos: Diviciones
+
+(Identificar pros, problemas (y como se pueden mejorar), y adiciones necesarias)
+
+
+
+- Perfiles, Roles (Experiencia de cada uno - Usuarios, Guest, Profesor) - Dioris Arias
+
+- Compras - 	/	- Anthony Peralta Perez
+
+- Cursos - Gabriel Encarnacion
+
+- Interfaz de usuario (botones, estetica, diseño, etc) /    - Emmanuel Aaron Popa
+
+- Sistema de filtros (busqueda y categorias) - Gabriel Mendieta
+
+- Reviews - 	/    - Jeremy Polanco Lara
+
+- Soporte al Usuario  /  - Felix Ortega Mejia
+
+
+
+
+Tres preguntas para hacer: 
+
+ - Que cosas tiene la aplicacion que son necesarias?
+
+
+- Que pueden agregar
+
+
+- Que tiene que no es necesario pero es chulo tener

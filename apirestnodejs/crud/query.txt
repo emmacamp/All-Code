@@ -1,0 +1,11 @@
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Mango', 53,4);
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Piña',7, 5);
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Lechoza','5','56');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Pera','76','5');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Uva','43','4');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Cereza','53','9');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Melon','89','8');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Sandia','7','4');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Lechoza','57','4');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Melocoton','23','5');
+INSERT INTO `articulos`(`description`, `price`, `stock`) VALUES ('Guanabana','34','5');

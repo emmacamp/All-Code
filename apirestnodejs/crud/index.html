@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <style>
+        body {
+            background-color: #f7f6f6;
+        }
+        table thead{
+            background-color: #0a4f70;
+            color: white;
+        }
+    </style>
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="container mt-4 shadow-lg p-3 bg-body rounded">
+        <button id="btnCrear" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalArticulo">Crear</button>       
+        <table id="tablaArticulos" class="table mt-2 table-bordered table-striped">
+            <thead>
+                <tr class="text-center">
+                    <th>ID</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            
+        </table>
+    </div>
+    <div id="modalArticulo" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Articulo</h5>
+                    <button type="button" class="btn-close" style="background-color: red;" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <!-- Modal Description -->
+                        <div class="mb-3">
+                        <label for="description" class="col-form-label">Description:</label>
+                        <input id="description" type="text" class="form-control" autofocus>
+                        </div>
+                        <!-- Modal Price -->
+                        <div class="mb-3">
+                            <label for="price" class="col-form-label">Price:</label>
+                            <input id="price" type="number" class="form-control">
+                        </div>
+                        <!-- Modal Stock -->
+                        <div class="mb-3">
+                            <label for="stock" class="col-form-label">Stock:</label>
+                            <input id="stock" type="number" class="form-control">
+                        </div>
+                        
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </div>
+    
+    <!-- Boostrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- My Script -->
+    <script src="./main.js"></script>
+</body>
+</html>

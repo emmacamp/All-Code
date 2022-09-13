@@ -1,0 +1,83 @@
+form {
+	padding-top: 40px;
+	width: 60vw;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+
+
+
+
+label {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.fila {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+}
+input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+.btns {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.btns button {
+	padding: 1rem 2.3rem;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	outline: none;
+	font-size: 1rem;
+	font-weight: 500;
+}
+.btns button:hover {
+	background-color: #ccc;
+}
+
+.notas {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	text-transform: capitalize;
+}
+.notas span {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.personas {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	gap: 10px;
+}
+.persona {
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	padding: 10px 20px;
+}
+.persona h2 {
+	font-weight: bold !important;
+}
+.persona span {
+	font-weight: 400 !important;
+}

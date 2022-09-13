@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#" class="secondary">…</a></li>
+        </ul>
+        <ul>
+          <li><strong>POPA</strong></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="secondary">…</a></li>
+        </ul>
+      </nav>
+      <!-- <marquee behavior="" direction=""> Hola </marquee> -->
+      <form class="form-login">
+        <!-- Grid -->
+        <li>
+          <strong>LOGIN</strong>
+        </li>
+        <div class="grid">
+          <!-- Markup example 1: input is inside label -->
+          <label for="username">
+            User name
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="User name"
+              required
+            />
+          </label>
+
+          <label for="lastname">
+            Password
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </label>
+        </div>
+
+        <small
+          >You don't have an account?
+          <a href="./register.html">Register</a>
+        </small>
+
+        <!-- Button -->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

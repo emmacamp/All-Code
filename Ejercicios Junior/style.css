@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    
+}
+main{
+    margin:auto;
+    display: flex;
+    
+
+}
+
+.containerUp{
+    display: flex;
+    
+}
+.containerDown{
+    display: flex;
+}
+.carta{
+    padding: 50px;
+    
+    margin: 10px;
+    
+}
+
+#c1{
+    width: 30%;
+    height: auto;
+    background-color: rgba(57, 104, 169, 0.133);
+}
+#c2{
+    width: 70%;
+    height: auto;
+    background-color: rgb(186, 53, 53);
+    
+}
+#c3{
+    width: 70%;
+    height: auto;
+    background-color: rgba(33, 208, 152, 0.94);
+}
+#c4{
+    width: 30%;
+    height: auto;
+    background-color: rgba(111, 201, 33, 0.759);
+}
+#c5{
+    width: 100px;
+    height: 400px;
+    background-color: rgba(20, 168, 170, 0.856);
+}
+
+
+p{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerUp{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerDown{
+        display: flex;
+        flex-direction: column;
+    }
+    .carta{
+        padding: 20px;
+        margin: 10px;
+    }
+    #c1{
+        width: 100%;
+        height: auto;
+        background-color: rgba(57, 104, 169, 0.133);
+    }
+    #c2{
+        width: 100%;
+        height: auto;
+        background-color: rgb(186, 53, 53);
+        
+    }
+    #c3{
+        width: 100%;
+        height: auto;
+        background-color: rgba(33, 208, 152, 0.94);
+    }
+    #c4{
+        width: 100%;
+        height: auto;
+    }
+    #c5{
+        width: 100%;
+        height: auto;
+
+    }
+}

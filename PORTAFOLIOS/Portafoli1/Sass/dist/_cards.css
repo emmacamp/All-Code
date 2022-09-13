@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.main .slide-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}

@@ -1,0 +1,47 @@
+.card {
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 20px;
+    width: 400px;
+
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.ready {
+    color: chartreuse;
+}
+
+.no-ready {
+    color: red;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkslategrey;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    margin: 0 1px;
+    color: #ccc;
+}
+
+.nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    background-color: olivedrab;
+    padding: 10px;
+}

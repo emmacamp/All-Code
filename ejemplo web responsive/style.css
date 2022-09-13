@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    background-color: blue;
+}
+
+.two{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    background-color: red;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one{
+        background-color: blueviolet;
+    }
+    .two{
+        background-color: chartreuse;
+    }
+}

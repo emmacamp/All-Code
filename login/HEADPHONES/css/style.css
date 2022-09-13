@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;900&display=swap');
+@import 'mediaqueries.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+boby{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/vectores/vector-1.png");
+    background-size: cover;
+
+}
+
+.navbar .menu{
+    grid-column: 6 / 9;
+    display: flex;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 9 1fr;
+    padding: 30px;
+
+}
+
+.menu-bar{
+    display: none;
+    
+}
+
+
+
+
+.menu{
+    list-style: none;
+    margin-top: 12px;
+
+}
+nav .brand{
+    color: #fff;
+}
+.menu li a{
+    text-decoration: none;
+    margin-right:  3em;
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 200;
+    padding: 10px 20px;
+    border-radius: 1em;
+    
+}
+
+.menu li a:hover{
+    background-color: rgb(243, 242, 242);
+    transition: all .5s;
+    color: black;
+}
+
+
+/* MAIN SECCION */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-info{
+    margin-top: 5em;
+    color: #fff;
+}
+
+button{
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover{
+    box-shadow: none;
+    transition: all 1s;
+    box-shadow: 0px 3px 14px -4px rgb(0, 0, 0);
+}
+
+.btn-tobuy,  .read-more{
+    background-color: red;
+    padding: 8px 40px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.read-more{
+    background: none;
+    border: 1px solid #fff;
+    margin: 20px;
+}
+
+.main img{
+    margin-top: 5em;
+}

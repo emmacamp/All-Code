@@ -1,0 +1,29 @@
+$main-bt-color: #1178F8; 
+$main-bg-color: #fff; 
+$main-hv-color: #2513ec;
+
+
+.carrusel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    background-color: #000;
+    color: $main-bg-color;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    
+    .carrusel-items {
+        display: flex;
+        overflow-x: hidden;
+
+        .carrusel-item{
+            padding: 10px 20px;
+        }
+    }
+
+    
+
+
+}

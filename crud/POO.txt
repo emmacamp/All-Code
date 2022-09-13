@@ -1,0 +1,14 @@
+
+Abstraccion:
+Proceso mental para saber que atributos y metodos tendran nuestras clases
+
+Encapsulamiento:
+Nos permite controlar quien puede ver y utilizar los distintos modulos internos de nuetro sistema.
+
+Polimorfismo:
+Poder darle la misma orden a diferentes objetos y que cada uno responda a su manera.
+
+Herencia:
+Poder heredar atributos y metodos de una clase padre a una clase hija.
+
+//Ejemplo de programacion orientada a objetos

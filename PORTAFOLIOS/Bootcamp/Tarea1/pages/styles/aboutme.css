@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/img&vid/background-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav, ul{display: flex;}
+
+nav{
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+}
+
+nav ul{
+    list-style: none;
+    align-items: center;
+}
+
+a{
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+#aboutme{
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+
+img{
+    width: 250px;
+    height: 440px;
+    margin-right: 30px;
+    border-radius: 1em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+table{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-collapse: collapse;
+    border: 1px solid black; 
+    width: 700px;
+    height: 430px;
+    box-shadow: 0px 0px 5px black;
+    
+}
+
+th, td {
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    padding: 30px 10px;
+    display: flex;
+
+}
+
+.no-botton{
+    border-bottom: none;
+
+}
+
+thead td{
+    font-weight: bold;
+    text-align: center;
+}
+
+table{margin-bottom: 20px;}
+
+
